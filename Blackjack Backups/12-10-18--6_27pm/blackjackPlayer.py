@@ -184,7 +184,7 @@ class BlackjackPlayer():
         print(str(self.name) + " bust. Remaining points: " + str(self.points));
 
     def _blackjack(self):
-        self.blkjackIncrease = self.bet + int(((3/2)*(self.bet)))
+        self.blkjackIncrease = self.bet + int(((3/2)(self.bet)))
         self.points += self.blkjackIncrease;
         print(str(self.name) + " got a blackjack and won " + str(self.blkjackIncrease) + "points. Total: " + str(self.points) + "points.");
 

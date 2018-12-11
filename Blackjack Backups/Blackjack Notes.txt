@@ -1,0 +1,26 @@
+##        for i in range(self.players):
+##            name = input("Name of player "+ str(i+1) + ": ");
+##            balance = int(input("How many points will " + str(name) + " start with? :"));
+##            ai = bool(input("Is " + str(name) + " a computer (True/False)?: "));
+##            house = False;
+##            if(i == 0):
+##                player1 = BlackjackPlayer(name, ai, house, balance);
+##                print("Player " + str(i+1) + ": " + str(name) + " has been created");
+##            elif(i == 1):
+##                player2 = BlackjackPlayer(name, ai, house, balance);
+##                print("Player " + str(i+1) + ": " + str(name) + " has been created");
+##            elif(i == 2):
+##                player3 = BlackjackPlayer(name, ai, house, balance);
+##                print("Player " + str(i+1) + ": " + str(name) + " has been created");
+##            elif(i == 3):
+##                player4 = BlackjackPlayer(name, ai, house, balance);
+##                print("Player " + str(i+1) + ": " + str(name) + " has been created");
+##            elif(i == 4):
+##                player5 = BlackjackPlayer(name, ai, house, balance);
+##                print("Player " + str(i+1) + ": " + str(name) + " has been created");
+##            elif(i == 5):
+##                player6 = BlackjackPlayer(name, ai, house, balance);
+##                print("Player " + str(i+1) + ": " + str(name) + " has been created");
+##            elif(i == 6):
+##                player7 = BlackjackPlayer(name, ai, house, balance);
+##                print("Player " + str(i+1) + ": " + str(name) + " has been created");

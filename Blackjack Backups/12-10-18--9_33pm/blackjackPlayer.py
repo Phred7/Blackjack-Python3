@@ -1,5 +1,5 @@
 import random
-from blackjackSplit import BlackjackSplit as Split
+from blackjackSplit_II import BlackjackSplit as Split
 
 class BlackjackPlayer():
     def __init__(self, name, aiBool, startingBalance):
